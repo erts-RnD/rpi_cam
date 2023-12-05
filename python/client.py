@@ -6,7 +6,7 @@ from picamera2 import Picamera2, Preview
 
 s=socket.socket(socket.AF_INET , socket.SOCK_DGRAM)  
 s.setsockopt(socket.SOL_SOCKET, socket.SO_SNDBUF, 10000000) 
-serverip="192.168.0.136"       # IP address of ROS master (PC)
+serverip="10.42.0.1"       # IP address of ROS master (PC)
 serverport=5000              # Port number should be same for client and server
 
 

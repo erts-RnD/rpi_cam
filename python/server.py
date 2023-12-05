@@ -3,7 +3,7 @@
 import cv2, socket, numpy, pickle  
 
 s=socket.socket(socket.AF_INET , socket.SOCK_DGRAM)  # Gives UDP protocol to follow
-ip="192.168.0.136"   # Server public IP
+ip="10.42.0.1"   # Server public IP
 port=5000             # Port number should be same for both server and client
 s.bind((ip,port))     # Bind the IP:port to connect 
 
