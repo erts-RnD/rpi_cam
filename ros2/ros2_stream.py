@@ -13,7 +13,7 @@ class VideoPublisherNode(Node):
         super().__init__('video_publisher_node')
 
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        ip = "192.168.0.136"
+        ip = "10.42.0.1"
         port = 5000
         self.sock.bind((ip, port))
 
